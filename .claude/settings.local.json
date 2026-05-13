@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(grep -rn \"rose-\\\\|red-\\\\|pink-\\\\|fuchsia-\\\\|#[a-fA-F0-9]\\\\{3,8\\\\}\\\\|rgb\\\\|hsl\\\\|oklch\" /Users/tongtin/Downloads/crimson-bloom-main/src/ --include=\"*.tsx\" --include=\"*.ts\")",
+      "Bash(grep -n \"<img\" /Users/tongtin/Downloads/crimson-bloom-main/src/routes/product.\\\\$id.tsx /Users/tongtin/Downloads/crimson-bloom-main/src/routes/collection.tsx /Users/tongtin/Downloads/crimson-bloom-main/src/routes/checkout.summary.tsx /Users/tongtin/Downloads/crimson-bloom-main/src/components/cart-drawer.tsx 2>/dev/null)",
+      "Read(//Users/tongtin/Downloads/crimson-bloom-main/src/routes/**)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(grep -n \"ShoppingBag\" /Users/tongtin/Downloads/crimson-bloom-main/src/routes/product.\\\\$id.tsx)",
+      "Bash(grep -n \"ArrowRight\" /Users/tongtin/Downloads/crimson-bloom-main/src/routes/product.\\\\$id.tsx)"
+    ]
+  }
+}
